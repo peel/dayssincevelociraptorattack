@@ -8,30 +8,43 @@
     <style>
       body {
         background: black no-repeat center/100% url("bg.jpg") fixed;
+        background-size:cover;
       }
       .container{
         height:100%;position:relative;
       }
       .text {
-        position:absolute;top:20%;left:35%;transform: translate(0, -35%);
+        display: block;
+        margin: 0 auto;
         color:#fff;text-shadow: 1px 1px 1px #000;font-weight:bold;font-family:Helvetica,sans-serif;
       }
       .text p {
         font-size:1.5em;
-        opacity:0.2;
+        text-align:center;
+        text-transform: uppercase;
       }
       .text h1{
         font-size:15em;
+        text-align:center;
+        margin:0;
+      }
+      .sign {
+        display:block;
+        margin: 0 auto;
+        width:20%;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="text">
-        <p>Number of days since velociraptor attack:</p>
+        <p>This is a <br/>velociraptor-free<br/> workplace.</p>
+        <img src="raptor.png" class="sign"/>
+        <p>It has proudly been</p>
         <h1>
           0 😱
         </h1>
+        <p>days since the last incident.</p>
       </div>
     </div>
   </body>
